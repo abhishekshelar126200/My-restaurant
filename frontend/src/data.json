@@ -1,0 +1,148 @@
+{
+  "Mani's Dum Biryani": [
+    {
+      "_id": { "$oid": "6671720fe1a78e67dc8c8dd7" },
+      "name": "Chicken 65",
+      "price": 160,
+      "description": "A spicy and tangy South Indian appetizer featuring bite-sized pieces of chicken marinated in a blend of yogurt, chili, and spices. Fried to golden perfection, these crispy morsels are bursting with flavor and served with a side of cooling raita or a squeeze of lemon. Perfect as a starter or snack.",
+      "ratings": 4.5,
+      "images": [
+        {
+          "public_id": "Mani's-image5",
+          "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/cddtx6vkai2ukmnv2jnc"
+        }
+      ],
+      "stock": 39,
+      "numOfReviews": 89,
+      "reviews": [
+        {
+          "name": "John Doe",
+          "rating": 5,
+          "Comment": "Absolutely delicious! The flavors are amazing."
+        },
+        {
+          "name": "Jane Smith",
+          "rating": 4,
+          "Comment": "Very tasty but a bit too spicy for me."
+        }
+      ],
+      "createdAt": "2024-06-13T12:00:00Z"
+    },
+    {
+      "_id": { "$oid": "6671720fe1a78e67dc8c8dd7" },
+      "name": "Chicken 65",
+      "price": 160,
+      "description": "A spicy and tangy South Indian appetizer featuring bite-sized pieces of chicken marinated in a blend of yogurt, chili, and spices. Fried to golden perfection, these crispy morsels are bursting with flavor and served with a side of cooling raita or a squeeze of lemon. Perfect as a starter or snack.",
+      "ratings": 4.5,
+      "images": [
+        {
+          "public_id": "Mani's-image5",
+          "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/cddtx6vkai2ukmnv2jnc"
+        }
+      ],
+      "stock": 39,
+      "numOfReviews": 89,
+      "reviews": [
+        {
+          "name": "John Doe",
+          "rating": 5,
+          "Comment": "Absolutely delicious! The flavors are amazing."
+        },
+        {
+          "name": "Jane Smith",
+          "rating": 4,
+          "Comment": "Very tasty but a bit too spicy for me."
+        }
+      ],
+      "createdAt": "2024-06-13T12:00:00Z"
+    },
+    {
+      "_id": { "$oid": "6671720fe1a78e67dc8c8dd8" },
+      "name": "Fish Kabab",
+      "price": 319,
+      "description": "Succulent pieces of fish marinated in a blend of aromatic spices and herbs, then grilled to perfection. These kebabs are smoky, tender, and packed with flavor, making them an irresistible appetizer or side dish. Served with a wedge of lemon and a sprinkle of fresh herbs for added zest.",
+      "ratings": 4.3,
+      "images": [
+        {
+          "public_id": "Mani's-image6",
+          "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/3/27/1cdf6730-4ac6-4edd-bf83-863de509d7fc_6cff92d4-d246-4ec9-8545-50f38db4634c.jpg"
+        }
+      ],
+      "stock": 37,
+      "numOfReviews": 72,
+      "reviews": [
+        {
+          "name": "John Doe",
+          "rating": 5,
+          "Comment": "Absolutely delicious! The flavors are amazing."
+        },
+        {
+          "name": "Jane Smith",
+          "rating": 4,
+          "Comment": "Very tasty but a bit too spicy for me."
+        }
+      ],
+      "createdAt": "2024-06-13T12:00:00Z"
+    },
+    {
+      "_id": { "$oid": "6671720fe1a78e67dc8c8dd7" },
+      "name": "Chicken 65",
+      "price": 160,
+      "description": "A spicy and tangy South Indian appetizer featuring bite-sized pieces of chicken marinated in a blend of yogurt, chili, and spices. Fried to golden perfection, these crispy morsels are bursting with flavor and served with a side of cooling raita or a squeeze of lemon. Perfect as a starter or snack.",
+      "ratings": 4.5,
+      "images": [
+        {
+          "public_id": "Mani's-image5",
+          "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/cddtx6vkai2ukmnv2jnc"
+        }
+      ],
+      "stock": 39,
+      "numOfReviews": 89,
+      "reviews": [
+        {
+          "name": "John Doe",
+          "rating": 5,
+          "Comment": "Absolutely delicious! The flavors are amazing."
+        },
+        {
+          "name": "Jane Smith",
+          "rating": 4,
+          "Comment": "Very tasty but a bit too spicy for me."
+        }
+      ],
+      "createdAt": "2024-06-13T12:00:00Z"
+    }
+  ],
+  "Empire restaurant ": [
+    {
+      "_id": { "$oid": "667165d79850fd5166c810e5" },
+      "name": "Tandoori Chicken",
+      "price": 349,
+      "description": "Tandoori Chicken is a popular Indian dish known for its vibrant color and smoky, spicy flavor. Traditionally cooked in a tandoor (a cylindrical clay oven), it can also be made in a regular oven or on a grill. Here's a detailed recipe for making delicious Tandoori Chicken at home.",
+      "ratings": 4.4,
+      "images": [
+        {
+          "public_id": "tandoori_chicken_image_1",
+          "url": "https://onestophalal.com/cdn/shop/articles/air_fryer_chicken_tandoori-1694242200588_1200x.jpg?v=1694242335"
+        }
+      ],
+      "menu": "60d5ec49f1a4c22e7c8e4b7b",
+      "stock": 33,
+      "restaurant": "60d5ec49f1a4c22e7c8e4c0d",
+      "numOfReviews": 150,
+      "reviews": [
+        {
+          "name": "Ian Black",
+          "rating": 5,
+          "Comment": "Best tandoori chicken in town!"
+        },
+        {
+          "name": "Jill Grey",
+          "rating": 4,
+          "Comment": "Really good, but could use more marinade."
+        }
+      ],
+      "createdAt": "2024-06-18T00:00:00Z"
+    }
+  ]
+}
