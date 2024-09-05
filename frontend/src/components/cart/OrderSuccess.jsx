@@ -10,7 +10,7 @@ const OrderSuccess = () => {
       }
       console.log(localStorage.getItem('order'));
       const orderData=localStorage.getItem('order');
-      const response=await fetch('http://localhost:4000/addRecord',{
+      const response=await fetch('https://my-restaurant-i131.onrender.com/addRecord',{
         method:"POST",
         headers:headers,
         body:orderData
