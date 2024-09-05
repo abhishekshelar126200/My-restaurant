@@ -25,7 +25,6 @@ export default function App() {
     localStorage.setItem('cartItems',parseInt(localStorage.getItem('cartItems'),10)-1);
   }
   const oncartChange=()=>{
-    localStorage.setItem('cartItems','1');
     setcartItems(parseInt(localStorage.getItem('cartItems'),10)+1 || 1);
     localStorage.setItem('cartItems',parseInt(localStorage.getItem('cartItems'),10)+1 || '1');
   }
