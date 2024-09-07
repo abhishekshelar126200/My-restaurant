@@ -13,7 +13,7 @@ const order=require('./order.js');
 const stripe=require("stripe")('sk_test_51PttijP8cLBj066MwY9i8zWFryl8qGrsF31avNyMLLfIfYFMwlA5YF3htFJPurJNoEUQvumsRqRCzJbxm65DZqRv00cui17l8N');
 const conn=mongoose.connect("mongodb+srv://abhishekshelar1262003:1557Abhi@abhishek.i4cx7te.mongodb.net/?retryWrites=true&w=majority&appName=Abhishek")
 
-// app.get('/',(req,res)=>{
+// app.get('/',(req,res)=>{ 
 //     res.send('Hello world!');
 // });
 
