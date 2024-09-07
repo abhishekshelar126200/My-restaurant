@@ -13,6 +13,7 @@ function FoodItem({foodItem,oncartChange,rest,isLogin}) {
         {
             item['quantity']=1;
             isAdded[item._id.$oid]=true;
+            console.log(isAdded);
             let cartData=JSON.parse(localStorage.getItem('foodItems')) || {};
             if(!cartData[rest.name])
             {
