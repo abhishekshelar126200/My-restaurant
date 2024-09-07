@@ -55,6 +55,7 @@ const OrderDetails = () => {
       <table className="table table-striped table-bordered">
         <thead className="thead-dark">
           <tr>
+            <th>SR.NO</th>
             <th>Restaurant</th>
             <th>Order Items</th>
             <th>Nums of Items</th>
@@ -64,8 +65,9 @@ const OrderDetails = () => {
           </tr>
         </thead>
         <tbody>
-          {data.map((order) => (
+          {data.map((order,index) => (
             <tr key={order.id}>
+              <td>{index}</td>
               <td>{order.restaurant}</td>
               <td>{order.orderItem}</td>
               <td>{order.itemsCount}</td>
