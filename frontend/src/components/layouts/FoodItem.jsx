@@ -61,7 +61,7 @@ function FoodItem({foodItem,oncartChange,rest,isLogin}) {
                                 <br/>
                                 </p>
                                 {
-                                    isAdded[item._id.$oid] ? <Link to="/cart" className='text-center'>Go to cart</Link>  : (<button onClick={(changeCart(item))} id="card_btn" className='btn btn-primary d-inline ml-4'>
+                                    isAdded[item._id.$oid] ? <Link to="/cart" className='text-center'>Go to cart</Link>  : (<button onClick={()=>(changeCart(item))} id="card_btn" className='btn btn-primary d-inline ml-4'>
                                         Add to Cart
                                     </button>) 
                                 } 
