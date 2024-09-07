@@ -21,7 +21,6 @@ function FoodItem({foodItem,oncartChange,rest,isLogin}) {
             }
             cartData[rest.name].push(item);
             localStorage.setItem('foodItems',JSON.stringify(cartData));
-            console.log(localStorage.getItem('foodItems'));
             oncartChange();
         }
         else
