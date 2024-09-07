@@ -67,7 +67,7 @@ const OrderDetails = () => {
         <tbody>
           {data.map((order,index) => (
             <tr key={order.id}>
-              <td>{index}</td>
+              <td>{index+1}</td>
               <td>{order.restaurant}</td>
               <td>{order.orderItem}</td>
               <td>{order.itemsCount}</td>
