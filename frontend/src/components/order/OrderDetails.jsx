@@ -36,7 +36,7 @@ const OrderDetails = () => {
   const [data,setData]=useState(null);
   useEffect(()=>{
     const fetchData=async ()=>{
-      const response=await fetch('http://localhost:4000/fetchData');  
+      const response=await fetch('https://my-restaurant-i131.onrender.com/fetchData');  
       const session=await response.json();
       console.log(session);
       setData(session);
