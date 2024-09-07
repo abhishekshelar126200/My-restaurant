@@ -32,7 +32,6 @@ function FoodItem({foodItem,oncartChange,rest,isLogin}) {
 
     useEffect(()=>{
         setuserLogin(isLogin);
-        console.log(userLogin);
     },[isLogin])
 
     useEffect(() => {
