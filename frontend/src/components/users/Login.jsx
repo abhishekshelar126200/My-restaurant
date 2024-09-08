@@ -7,7 +7,7 @@ const Login = ({userLogged,isLogin}) => {
   const loginUser=async ()=>{
     const email=document.getElementById('email_field').value;
     const password=document.getElementById('password_field').value;
-    const response=await fetch('http://localhost:4000/userDetails');
+    const response=await fetch('https://my-restaurant-i131.onrender.com/userDetails');
     const userData=await response.json();
     const userFound=await userData.filter(user => user.email === email);
    
