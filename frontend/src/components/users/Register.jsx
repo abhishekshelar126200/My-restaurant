@@ -23,7 +23,7 @@ const Register = () => {
       const headers={
         'Content-Type':'application/json'
       }
-      const response=await fetch('http://localhost:4000/addUser',{
+      const response=await fetch('https://my-restaurant-i131.onrender.com/addUser',{
         method:'POST',
         headers:headers,
         body:JSON.stringify(userData)
