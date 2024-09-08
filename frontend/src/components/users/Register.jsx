@@ -13,22 +13,28 @@ const Register = () => {
       const userpassword=document.getElementById('password_field').value;
       const userconfirmPassword=document.getElementById('passwordConfirm_field').value;
       const usernumber=document.getElementById('phoneNumber_field').value;
-      let userData={
+       let userData={
         name:username,
         email:useremail,
         password:userpassword,
-        number:usernumber
+        confirmPassword:userconfirmPassword,
+        phoneNumber:usernumber
       }
-      const data=await JSON.parse(localStorage.getItem('userData')) || [];
-      const foundData=await data.filter(user => user.email === useremail);
-      if(foundData.length==0)
+      const headers={
+        'Content-Type':'application/json'
+      }
+      const response=await fetch('http://localhost:4000/addUser',{
+        method:'POST',
+        headers:headers,
+        body:JSON.stringify(userData)
+      });
+      const session=await response.json();
+      if(session.user)
       {
-        data.push(userData);
-        console.log(data);
-        localStorage.setItem('userData',JSON.stringify(data));
+        window.alert('User already exist')
       }
       else{
-        window.alert('User already exist');
+        window.alert('Registration Succesfully');
       }
   }
 
