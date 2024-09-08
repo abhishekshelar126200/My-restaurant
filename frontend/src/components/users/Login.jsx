@@ -7,7 +7,8 @@ const Login = ({userLogged,isLogin}) => {
   const loginUser=async ()=>{
     const email=document.getElementById('email_field').value;
     const password=document.getElementById('password_field').value;
-    const userData=await JSON.parse(localStorage.getItem('userData'));
+    const response=await fetch('http://localhost:4000/userDetails');
+    const userData=await response.json();
     const userFound=await userData.filter(user => user.email === email);
    
     if(userFound.length==0)
